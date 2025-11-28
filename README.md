@@ -7,33 +7,48 @@ MIDIシーケンサー、コントローラー、サウンドビジュアライ�
 ---
 
 ## 🧠 Philosophy
+
 「演奏」と「設計」のあいだにある創造性を、手を動かしながら探る。  
-**音を設計する感覚**を共有するための研究ノートです。
+**音を自分で“設計”する感覚**を、そのまま形にしていくための研究ノートです。
+
+- 電子回路と音  
+- インタラクションとフィードバック  
+- 軽量なハードウェアと創造性  
+
+これらが交差する領域を実験的に探求しています。
 
 ---
 
 ## 📦 Projects
+
 | Project | Description |
-|----------|--------------|
-| [four_step_sequencer/](four_step_sequencer) | 4ステップUSB-MIDIドラムシーケンサー |
+|--------|-------------|
+| [four_step_sequencer/](four_step_sequencer) | 4ステップ USB-MIDI シーケンサーの基礎版 |
+| [four_step_multi_voice_sequencer/](four_step_multi_voice_sequencer) | 4ステップ × 音色切り替え対応のマルチボイス版（チュートリアル発展形） |
+
+_※ 今後、MIDIコントローラー、モジュラー向けインターフェイス、ビジュアライザーなども追加予定。_
 
 ---
 
 ## 🔧 Environment
-- Arduino IDE or PlatformIO  
+
+- Arduino IDE / PlatformIO  
 - Pro Micro (ATmega32U4)  
 - MIDIUSB library  
-- 5V logic / USB-MIDI output
+- USB-MIDI デバイスとして動作  
+- 5V ロジック
 
 ---
 
 ## 📜 License
+
 MIT License © 2025 keimlab  
-自由に改造・再利用できます。出典を明記していただけると嬉しいです。
+自由に改造・再利用いただけます。出典の明記を推奨します。
 
 ---
 
 ## 🌐 Links
-- 🧪 Note: [https://note.com/keimlab](https://note.com/keimlab)  
-- 🐦 X (Twitter): [https://x.com/keimlab](https://x.com/keimlab)  
-- 💻 GitHub: [https://github.com/keimlab](https://github.com/keimlab)
+
+- 🧪 Note (制作記・考察): https://note.com/keimlab  
+- 🐦 X (updates): https://x.com/keimlab  
+- 💻 GitHub: https://github.com/keimlab

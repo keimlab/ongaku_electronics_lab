@@ -24,7 +24,8 @@ MIDIシーケンサー、コントローラー、サウンドビジュアライ�
 | Project | Description |
 |--------|-------------|
 | [four_step_sequencer/](four_step_sequencer) | 4ステップ USB-MIDI シーケンサーの基礎版 |
-| [four_step_multi_voice_sequencer/](four_step_multi_voice_sequencer) | 4ステップ × 音色切り替え対応のマルチボイス版（チュートリアル発展形） |
+| [four_step_multi_voice_sequencer/](four_step_multi_voice_sequencer) | 4ステップ × 音色切り替え（マルチボイス）対応の USB-MIDI 版 |
+| [four_step_multi_voice_sequencer_midi_out/](four_step_multi_voice_sequencer_midi_out) | 外部ハードウェアを直接鳴らす **MIDI OUT（DIN5）対応版**シーケンサー |
 
 _※ 今後、MIDIコントローラー、モジュラー向けインターフェイス、ビジュアライザーなども追加予定。_
 
@@ -34,9 +35,9 @@ _※ 今後、MIDIコントローラー、モジュラー向けインターフ�
 
 - Arduino IDE / PlatformIO  
 - Pro Micro (ATmega32U4)  
-- MIDIUSB library  
-- USB-MIDI デバイスとして動作  
-- 5V ロジック
+- USB-MIDI または **DIN MIDI OUT**（プロジェクトによる）  
+- 5V ロジック  
+- ハードウェア音源との接続にも対応（MIDI OUT 版）
 
 ---
 

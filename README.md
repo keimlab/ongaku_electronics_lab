@@ -15,7 +15,7 @@ MIDIシーケンサー、コントローラー、サウンドビジュアライ�
 - インタラクションとフィードバック  
 - 軽量なハードウェアと創造性  
 
-これらが交差する領域を実験的に探求しています。
+これらが交差する領域を、実験と試作を通して探求しています。
 
 ---
 
@@ -24,8 +24,9 @@ MIDIシーケンサー、コントローラー、サウンドビジュアライ�
 | Project | Description |
 |--------|-------------|
 | [four_step_sequencer/](four_step_sequencer) | 4ステップ USB-MIDI シーケンサーの基礎版 |
-| [four_step_multi_voice_sequencer/](four_step_multi_voice_sequencer) | 4ステップ × 音色切り替え（マルチボイス）対応の USB-MIDI 版 |
-| [four_step_multi_voice_sequencer_midi_out/](four_step_multi_voice_sequencer_midi_out) | 外部ハードウェアを直接鳴らす **MIDI OUT（DIN5）対応版**シーケンサー |
+| [four_step_multi_voice_sequencer/](four_step_multi_voice_sequencer) | 4ステップ × 音色切り替え（マルチボイス）対応の USB-MIDI 発展版 |
+| [four_step_multi_voice_sequencer_tempo_swing/](four_step_multi_voice_sequencer_tempo_swing) | **テンポ固定＋スイング（前ノリ／後ノリ）対応**の完成形 USB-MIDI シーケンサー |
+| [four_step_multi_voice_sequencer_midi_out/](four_step_multi_voice_sequencer_midi_out) | 外部ハードウェアを直接鳴らす **MIDI OUT（DIN5）対応版** |
 
 _※ 今後、MIDIコントローラー、モジュラー向けインターフェイス、ビジュアライザーなども追加予定。_
 
@@ -37,7 +38,7 @@ _※ 今後、MIDIコントローラー、モジュラー向けインターフ�
 - Pro Micro (ATmega32U4)  
 - USB-MIDI または **DIN MIDI OUT**（プロジェクトによる）  
 - 5V ロジック  
-- ハードウェア音源との接続にも対応（MIDI OUT 版）
+- ソフト音源・ハードウェア音源の両方に対応
 
 ---
 

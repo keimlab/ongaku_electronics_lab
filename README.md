@@ -17,6 +17,10 @@ MIDIシーケンサー、コントローラー、サウンドビジュアライ�
 
 これらが交差する領域を、実験と試作を通して探求しています。
 
+近年は特に、  
+**「音楽理論をなぞる」のではなく、「数列や構造を操作した結果として音楽が立ち上がる」**  
+ようなアプローチに関心を持って制作しています。
+
 ---
 
 ## 📦 Projects
@@ -27,8 +31,7 @@ MIDIシーケンサー、コントローラー、サウンドビジュアライ�
 | [four_step_multi_voice_sequencer/](four_step_multi_voice_sequencer) | 4ステップ × 音色切り替え（マルチボイス）対応の USB-MIDI 発展版 |
 | [four_step_multi_voice_sequencer_tempo_swing/](four_step_multi_voice_sequencer_tempo_swing) | **テンポ固定＋スイング（前ノリ／後ノリ）対応**の完成形 USB-MIDI シーケンサー |
 | [four_step_multi_voice_sequencer_midi_out/](four_step_multi_voice_sequencer_midi_out) | 外部ハードウェアを直接鳴らす **MIDI OUT（DIN5）対応版** |
-
-_※ 今後、MIDIコントローラー、モジュラー向けインターフェイス、ビジュアライザーなども追加予定。_
+| [pattern_sequencer_bit_zrusher_bytender/](pattern_sequencer_bit_zrusher_bytender) | **数列ベースのパターンシーケンサー**。分割数（1/2/4/8/16）を基準に、<br>ビットをずらす *Bit Zrusher* と、密度を倍化する *Bytender* によって、<br>構造そのものをリアルタイムに変形できる実験的モデル |
 
 ---
 
